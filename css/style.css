@@ -418,7 +418,11 @@ footer ul li a:hover {
 
 /*------------------MEDIA QUERIES(TABLETS)------------------*/
 
+<<<<<<< HEAD
 @media screen and (max-width: 1024px) {
+=======
+@media screen and(max-width:1024px) {
+>>>>>>> b49843b0d0be97c5b39c22bf07b718469208ddb1
   .container {
     width: var(--container-width-md);
   }
@@ -458,6 +462,7 @@ footer ul li a:hover {
   .nav__menu li {
     width: 100%;
     height: 5.8rem;
+<<<<<<< HEAD
     animation: animateNavItems 300ms linear forwards;
     transform-origin: top right;
     opacity: 0;
@@ -479,6 +484,8 @@ footer ul li a:hover {
       transform: rotateZ(0) rotateX(0) scale(1);
       opacity: 1;
     }
+=======
+>>>>>>> b49843b0d0be97c5b39c22bf07b718469208ddb1
   }
   .nav__menu li a {
     background: var(--color-primary);
@@ -492,6 +499,7 @@ footer ul li a:hover {
     background: var(--color-bg2);
     color: var(--color-white);
   }
+<<<<<<< HEAD
   /*---------------HEADER---------------*/
   header {
     height: 52vh;
@@ -585,4 +593,6 @@ footer ul li a:hover {
   .footer__socials {
     justify-content: center;
   }
+=======
+>>>>>>> b49843b0d0be97c5b39c22bf07b718469208ddb1
 }
